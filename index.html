@@ -71,6 +71,143 @@
 			</ul>
 		</div>
 	</div>
+<div class="maps-block">
+		<div class="maps">
+			<a href="#" class="exit exitMaps"><i class="fas fa-times"></i></a>
+			<iframe class="mapStore" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4988713.023646136!2d22.03442385417095!3d52.37232333196691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ec94abf8f03a3%3A0x605053ed9e886d59!2sNew%20Balance!5e0!3m2!1sen!2sby!4v1571059257661!5m2!1sen!2sby" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		TweenMax.from(".text-inform h1", 1, {
+			delay: .4,
+			y: 20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".tagline", 1, {
+			delay: .7,
+			y: 20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".inform-btn", 1, {
+			delay: 1,
+			y: 20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".photo-model", 1, {
+			delay: .4,
+			y: 20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".logo", 1, {
+			delay: 2.2,
+			y: -20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".menu", 1, {
+			delay: 2.4,
+			y: -20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".search-block", 1, {
+			delay: 2.6,
+			y: -20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".personal-item", 1, {
+			delay: 2.8,
+			y: -20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".find", 1, {
+			delay: 3.2,
+			y: 20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".connect", 1, {
+			delay: 3.4,
+			y: 20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".social-icon", 1, {
+			delay: 3.6,
+			y: 20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+
+		TweenMax.from(".burger-link", 1, {
+			delay: 3,
+			y: -20,
+			opacity: 0,
+			ease:Expo.easeInOut
+		});
+		$(document).ready(function () {
+			var link = $('.burger-link');
+			var link_active = $('.burger-link_active');
+			var navigation = $('.mobile-nav');
+			var nav_active = $('.nav-active');
+
+			var sign = $('.signIn');
+			var signBlock = $('.sign-block');
+			var signBlock_active = $('.sign-block_active');
+			var exit = $('.exit');
+			var signInMobile = $('.signInMobile');
+
+			var findStore = $('.findStore');
+			var mapsBlock = $('.maps-block');
+			var mapsBlock_active = $('.maps-block_active');
+
+			link.click(function(){
+				link.toggleClass('burger-link_active');
+				navigation.toggleClass('nav-active');
+			});
+
+			link_active.click(function(){
+				navigation.removeClass('nav-active');
+			});
+
+			sign.click(function(){
+				signBlock.toggleClass('sign-block_active');
+			});
+
+			signInMobile.click(function(){
+				signBlock.toggleClass('sign-block_active');
+				navigation.removeClass('nav-active');
+				link.removeClass('burger-link_active');
+			});
+
+			findStore.click(function(){
+				mapsBlock.toggleClass('maps-block_active');
+			});
+
+			exit.click(function(){
+				signBlock.removeClass('sign-block_active');
+				mapsBlock.removeClass('maps-block_active');
+			});
+		});
+	</script>
 
 </body>
 </html>
