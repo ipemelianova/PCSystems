@@ -2,7 +2,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(120deg, #fff 75%, #e01533 25%);
+	background: linear-gradient(120deg, #fff 75%, #black 25%);
 	font-family: 'PT Sans', sans-serif;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .nav-link {
 	text-decoration: none;
-	color: #e01533;
+	color: #grey;
 	font-size: 16px;
 	border-bottom: 2px solid transparent;
 	transition: .3s;
@@ -54,7 +54,7 @@ body {
 }
 
 .nav-link:hover {
-	border-bottom: 2px solid #e01533;
+	border-bottom: 2px solid #red;
 }
 
 .search-block {
@@ -67,7 +67,7 @@ body {
 .searsh {
 	display: flex;
 	background-color: #fff;
-	border: 2px solid #e01533;
+	border: 2px solid #grey;
 	border-radius: 30px;
 	width: 50%;
 	z-index: 1;
@@ -86,7 +86,7 @@ body {
 }
 
 .search-btn {
-	color: #e01533;
+	color: #black;
 	font-size: 17px;
 	width: 10%;
 	display: flex;
@@ -120,11 +120,11 @@ body {
 .auth-link i {
 	padding: 0 5px;
 	font-size: 20px;
-	color: #e01533;
+	color: #grey;
 }
 
 .auth-link:hover {
-	color: #e01533;
+	color: #grey;
 }
 
 /*===========Style for mobile menu==============*/
@@ -136,7 +136,7 @@ body {
 	height: 40px;
 	width: 40px;
 	border-radius: 50%;
-	border: 2px solid #e01533;
+	border: 2px solid #black;
 	background: #fff;
 	z-index: 100;
 }
@@ -186,7 +186,7 @@ body {
 	align-items: center;
 	width: 100%;
 	height: 100vh;
-	background: #e01533;
+	background: #grey;
 	transition: .5s;
 	z-index: 99;
 	left: -100%;
@@ -258,7 +258,7 @@ body {
 }
 
 .exit:hover {
-	background: #e01533;
+	background: #red;
 	color: #fff;
 }
 
@@ -288,8 +288,8 @@ body {
 }
 
 .input-data input:focus {
-	border: 2px solid #e01533;
-	color: #e01533;
+	border: 2px solid #black;
+	color: #grey;
 }
 
 .input-btn input{
@@ -299,14 +299,14 @@ body {
 	color: #fff;
 	font-weight: bold;
 	border-radius: 20px;
-	background: #e01533;
+	background: #grey;
 	padding: 6px 0;
 	transition: .3s;
 }
 
 .input-btn input:hover {
 	background: #fff;
-	color: #e01533;
+	color: #white;
 }
 
 .notReg {
@@ -319,11 +319,11 @@ body {
 
 .notReg-btn input {
 	background: #fff;
-	color: #e01533;
+	color: #grey;
 }
 
 .notReg-btn input:hover {
-	background: #e01533;
+	background: #grey;
 	color: #fff;
 }
 
@@ -346,7 +346,7 @@ body {
 }
 
 .text-inform strong {
-	color: #e01533;
+	color: #red;
 	text-decoration: underline;
 }
 
@@ -366,7 +366,7 @@ body {
 }
 
 .inform-btn {
-	border: 2px solid #e01533;
+	border: 2px solid #black;
 	border-radius: 20px;
 	text-decoration: none;
 	font-size: 18px;
@@ -376,21 +376,21 @@ body {
 }
 
 .read {
-	color: #e01533;
+	color: #black;
 }
 
 .read:hover {
 	color: #fff;
-	background: #e01533;
+	background: #grey;
 }
 
 .shop {
 	color: #fff;
-	background: #e01533;
+	background: #white;
 }
 
 .shop:hover {
-	color: #e01533;
+	color: #grey;
 	background: #fff;
 }
 
@@ -409,7 +409,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #e01533;
+	color: #grey;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 16px;
@@ -569,7 +569,7 @@ body {
 		font-size: 15px;
 	}
 	.social-link:hover {
-		color: #e01533
+		color: #grey
 	}
 }
 
