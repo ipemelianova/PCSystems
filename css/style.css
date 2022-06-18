@@ -385,13 +385,13 @@ body {
 }
 
 .shop {
-	color: #fff;
+	color: #000000;
 	background: #FFFFFF;
 }
 
 .shop:hover {
-	color: #808080;
-	background: #fff;
+	color: #FFFFFF;
+	background: #000000;
 }
 
 /*=====================Style for social=========================*/
