@@ -2,7 +2,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(120deg, #fff 75%, #black 25%);
+	background: linear-gradient(120deg, #fff 75%, ##000000 25%);
 	font-family: 'PT Sans', sans-serif;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .nav-link {
 	text-decoration: none;
-	color: #grey;
+	color: #2F4F4F;
 	font-size: 16px;
 	border-bottom: 2px solid transparent;
 	transition: .3s;
@@ -54,7 +54,7 @@ body {
 }
 
 .nav-link:hover {
-	border-bottom: 2px solid #red;
+	border-bottom: 2px solid #800000;
 }
 
 .search-block {
@@ -67,7 +67,7 @@ body {
 .searsh {
 	display: flex;
 	background-color: #fff;
-	border: 2px solid #grey;
+	border: 2px solid #808080;
 	border-radius: 30px;
 	width: 50%;
 	z-index: 1;
@@ -86,7 +86,7 @@ body {
 }
 
 .search-btn {
-	color: #black;
+	color: #000000;
 	font-size: 17px;
 	width: 10%;
 	display: flex;
@@ -120,11 +120,11 @@ body {
 .auth-link i {
 	padding: 0 5px;
 	font-size: 20px;
-	color: #grey;
+	color: #808080;
 }
 
 .auth-link:hover {
-	color: #grey;
+	color: #808080;
 }
 
 /*===========Style for mobile menu==============*/
@@ -136,7 +136,7 @@ body {
 	height: 40px;
 	width: 40px;
 	border-radius: 50%;
-	border: 2px solid #black;
+	border: 2px solid #000000;
 	background: #fff;
 	z-index: 100;
 }
@@ -186,7 +186,7 @@ body {
 	align-items: center;
 	width: 100%;
 	height: 100vh;
-	background: #grey;
+	background: #808080;
 	transition: .5s;
 	z-index: 99;
 	left: -100%;
@@ -225,7 +225,7 @@ body {
 	align-items: center;
 	width: 100%;
 	height: 100%;
-	background: rgba(33, 33, 33, .2);
+	background: rgba(128, 128, 128, .2);
 	z-index: 200;
 	box-sizing: border-box;
 }
@@ -253,12 +253,12 @@ body {
 	border-radius: 0 20px 0 20px;
 	position: relative;
 	left: calc(100% - 30px);
-	background: rgba(114, 114, 114, .15);
+	background: rgba(128, 128, 128, .15);
 	transition: .3s;
 }
 
 .exit:hover {
-	background: #red;
+	background: #FF0000;
 	color: #fff;
 }
 
@@ -277,7 +277,7 @@ body {
 
 .input-data input {
 	width: 100%;
-	border: 2px solid rgba(114, 114, 114, .5);
+	border: 2px solid rgba(128, 128, 128, .5);
 	border-radius: 15px;
 	outline: none;
 	font-size: 18px;
@@ -288,25 +288,25 @@ body {
 }
 
 .input-data input:focus {
-	border: 2px solid #black;
-	color: #grey;
+	border: 2px solid #000000;
+	color: #808080;
 }
 
 .input-btn input{
 	width: 100%;
-	border: 2px solid #e01533;
+	border: 2px solid #FFFFFF;
 	font-size: 16px;
 	color: #fff;
 	font-weight: bold;
 	border-radius: 20px;
-	background: #grey;
+	background: #808080;
 	padding: 6px 0;
 	transition: .3s;
 }
 
 .input-btn input:hover {
 	background: #fff;
-	color: #white;
+	color: #FFFFFF;
 }
 
 .notReg {
@@ -319,11 +319,11 @@ body {
 
 .notReg-btn input {
 	background: #fff;
-	color: #grey;
+	color: #808080;
 }
 
 .notReg-btn input:hover {
-	background: #grey;
+	background: #808080;
 	color: #fff;
 }
 
@@ -346,7 +346,7 @@ body {
 }
 
 .text-inform strong {
-	color: #red;
+	color: #000000;
 	text-decoration: underline;
 }
 
@@ -366,7 +366,7 @@ body {
 }
 
 .inform-btn {
-	border: 2px solid #black;
+	border: 2px solid #000000;
 	border-radius: 20px;
 	text-decoration: none;
 	font-size: 18px;
@@ -376,21 +376,21 @@ body {
 }
 
 .read {
-	color: #black;
+	color: #000000;
 }
 
 .read:hover {
 	color: #fff;
-	background: #grey;
+	background: #808080;
 }
 
 .shop {
 	color: #fff;
-	background: #white;
+	background: #FFFFFF;
 }
 
 .shop:hover {
-	color: #grey;
+	color: #808080;
 	background: #fff;
 }
 
@@ -409,7 +409,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #grey;
+	color: #808080;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 16px;
@@ -569,7 +569,7 @@ body {
 		font-size: 15px;
 	}
 	.social-link:hover {
-		color: #grey
+		color: #808080
 	}
 }
 
