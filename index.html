@@ -96,34 +96,7 @@
 		
 	</div>
 
-	<div class="mobile-navigation">
-		<a href="#" class="burger-link">
-			<span></span>
-		</a>
-        
-		<div class="mobile-nav">
-			<ul class="mobile-menu">
-				<li class="menu-item">
-					<a href="#" class="menu-link registerInMobile">Регистрация</a>
-				</li>
-				<li class="menu-item">
-					<a href="#" class="menu-link signInMobile">Вход</a>
-				</li>
-				<li class="menu-item">
-					<a href="#" class="menu-link">Компьютеры</a>
-				</li>
-				<li class="menu-item">
-					<a href="#" class="menu-link">Ноутбуки</a>
-				</li>
-				<li class="menu-item">
-					<a href="#" class="menu-link">Акустические системы</a>
-				</li>
-				<li class="menu-item">
-					<a href="#" class="menu-link">Периферия</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+	
 
 	<div class="main-information">
 		<div class="text-inform">
@@ -245,14 +218,14 @@
 		$(document).ready(function () {
 			var link = $('.burger-link');
 			var link_active = $('.burger-link_active');
-			var navigation = $('.mobile-nav');
+			
 			var nav_active = $('.nav-active');
 
 			var sign = $('.signIn');
 			var signBlock = $('.sign-block');
 			var signBlock_active = $('.sign-block_active');
 			var exit = $('.exit');
-			var signInMobile = $('.signInMobile');
+			
 			
 			var register = $('.registerIn');
 			var registerBlock = $('.register-block');
@@ -277,19 +250,13 @@
 				signBlock.toggleClass('sign-block_active');
 			});
 			
-			signInMobile.click(function(){
-				signBlock.toggleClass('sign-block_active');
-				navigation.removeClass('nav-active');
-				link.removeClass('burger-link_active');
-			});
+			
+			
 			register.click(function(){
 				registerBlock.toggleClass('register-block_active');
 			});
-			registerInMobile.click(function(){
-				registerBlock.toggleClass('register-block_active');
-				navigation.removeClass('nav-active');
-				link.removeClass('burger-link_active');
-			});
+			
+			
 
 			findStore.click(function(){
 				mapsBlock.toggleClass('maps-block_active');
