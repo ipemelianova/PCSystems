@@ -38,7 +38,7 @@
 <a href="#" class="auth-link signIn"><i class="fas fa-user-circle"></i>Войти</a>
 </div>
 <div class="registration">
-<a href="#" class="auth-link"><i class="fas fa-shopping-cart"></i>Зарегистрироваться</a>
+<a href="#" class="auth-link registerIn"><i class="fas fa-shopping-cart"></i>Зарегистрироваться</a>
 </div>
 </div>
 </div>
@@ -58,8 +58,24 @@
 <div class="input-btn">
 <input type="submit" value="Войти">
 </div>
+</div>
+</div>
+</div>
 
+<div class="register-block">
+<div class="register">
+<a href="#" class="exit"><i class="fas fa-times"></i></a>
+<h4 class="register-head">Регистрация</h4>
 
+<div class="input-data">
+<input type="text" placeholder="введите логин">
+</div>
+<div class="input-data">
+<input type="password" placeholder="введите пароль">
+</div>
+<div class="input-btn">
+<input type="submit" value="Войти">
+</div>
 </div>
 </div>
 </div>
@@ -75,16 +91,13 @@
 <a href="#" class="menu-link signInMobile">Войти</a>
 </li>
 <li class="menu-item">
-<a href="#" class="menu-link">Мужчины</a>
+<a href="#" class="menu-link registerInMobile">Зарегистрироваться</a>
 </li>
 <li class="menu-item">
-<a href="#" class="menu-link">Женщины</a>
+<a href="#" class="menu-link">Товары</a>
 </li>
 <li class="menu-item">
-<a href="#" class="menu-link">Парни</a>
-</li>
-<li class="menu-item">
-<a href="#" class="menu-link">Девушки</a>
+<a href="#" class="menu-link">Услуги</a>
 </li>
 </ul>
 </div>
@@ -116,10 +129,9 @@
 
 <div class="maps-block">
 <div class="maps">
-<a href="#" class="exit exitMaps"><i class="fas fa-times"></i>
+<a href="#" class="exit exitMaps"><i class="fas fa-times"></i></a>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2612.8427107907187!2d140.2587846156379!3d49.08962917931081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ee08c44f0e9967f%3A0x48d900164093088b!2z0JrQvtC80L_RjNGO0YLQtdGA0L3Ri9C1INCh0LjRgdGC0LXQvNGL!5e0!3m2!1sru!2sru!4v1655715736970!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</a>
-  </div>
+</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -218,6 +230,12 @@ var signBlock = $('.sign-block');
 var signBlock_active = $('.sign-block_active');
 var exit = $('.exit');
 var signInMobile = $('.signInMobile');
+ 
+var register = $('.registerIn');
+var registerBlock = $('.register-block');
+var registerBlock_active = $('.register-block_active');
+var exit = $('.exit');
+var registerInMobile = $('.registerInMobile');
 
 var findStore = $('.findStore');
 var mapsBlock = $('.maps-block');
@@ -238,6 +256,16 @@ signBlock.toggleClass('sign-block_active');
 
 signInMobile.click(function(){
 signBlock.toggleClass('sign-block_active');
+navigation.removeClass('nav-active');
+link.removeClass('burger-link_active');
+});
+  
+register.click(function(){
+registerBlock.toggleClass('register-block_active');
+});
+
+registerInMobile.click(function(){
+registerBlock.toggleClass('register-block_active');
 navigation.removeClass('nav-active');
 link.removeClass('burger-link_active');
 });
