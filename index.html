@@ -74,27 +74,7 @@
 		</div>
 	</div>
 	
-	<div class="register-block">
-		<div class="register">
-			<a href="#" class="exit"><i class="fas fa-times"></i></a>
-			<h4 class="register-head">Регистрация</h4>
-
-			<div class="input-data">
-				<input type="text" placeholder="введите имя пользователя">
-			</div>
-			<div class="input-data">
-				<input type="password" placeholder="введите пароль">
-			</div>
-			<div class="input-data">
-				<input type="password" placeholder="повторите пароль">
-			</div>			
-			<div class="input-btn">
-				<input type="submit" value="Зарегистрироваться">
-			</div>
-		</div>
-		
-		
-	</div>
+	
 
 	
 
@@ -218,53 +198,46 @@
 		$(document).ready(function () {
 			var link = $('.burger-link');
 			var link_active = $('.burger-link_active');
-			
+			var navigation = $('.mobile-nav');
 			var nav_active = $('.nav-active');
 
 			var sign = $('.signIn');
 			var signBlock = $('.sign-block');
 			var signBlock_active = $('.sign-block_active');
 			var exit = $('.exit');
+			var signInMobile = $('signInMobile')
 			
 			
-			var register = $('.registerIn');
-			var registerBlock = $('.register-block');
-			var registerBlock_active = $('.register-block_active');
-			var exit = $('.exit');
-			var registerInMobile = $('.registerInMobile');
-
 			var findStore = $('.findStore');
 			var mapsBlock = $('.maps-block');
 			var mapsBlock_active = $('.maps-block_active');
 
 			link.click(function(){
 				link.toggleClass('burger-link_active');
-				navigation.toggleClass('nav-active');
+				navigation.toggleClass('nav-active');		
 			});
-
+			
 			link_active.click(function(){
-				navigation.removeClass('nav-active');
+				navigation.removeClass('nav-active');		
 			});
-
+			
 			sign.click(function(){
+				signBlock.toggleClass('sing-block_active');	
+			});	
+			
+			signInMobile.click(function(){
 				signBlock.toggleClass('sign-block_active');
+				navigation.removeClass('nav-active');	
+				link.removeClass('burger-link_active');
 			});
 			
-			
-			
-			register.click(function(){
-				registerBlock.toggleClass('register-block_active');
-			});
-			
-			
-
-			findStore.click(function(){
-				mapsBlock.toggleClass('maps-block_active');
-			});
+				
+		             
+					   
+					   
 
 			exit.click(function(){
 				signBlock.removeClass('sign-block_active');
-				registerBlock.removeClass('register-block_active');
 				mapsBlock.removeClass('maps-block_active');
 			});
 		});
