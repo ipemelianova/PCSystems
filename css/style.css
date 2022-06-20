@@ -309,10 +309,10 @@ body {
 	color: #000000;
 }
 
-}
+
 /*=====================Style for registration===============*/
 
-.Reg-block {
+.register-block {
 	position: fixed;
 	display: none;
 	justify-content: center;
@@ -324,11 +324,11 @@ body {
 	box-sizing: border-box;
 }
 
-.Reg-block_active {
+.register-block_active {
 	display: flex;
 }
 
-.Reg {
+.register {
 	background: #fff;
 	width: 350px;
 	height: 400px;
@@ -356,7 +356,7 @@ body {
 	color: #fff;
 }
 
-.Reg-head {
+.register-head {
 	font-size: 35px;
 	margin: 10px 0;
 	padding: 0;
