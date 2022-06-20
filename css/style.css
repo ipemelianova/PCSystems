@@ -707,6 +707,9 @@ body {
 	.sign {
 		width: 300px;
 	}
+	.register {
+		width: 300px;
+	}
 }
 
 @media screen and (max-height: 650px) {
