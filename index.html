@@ -37,8 +37,8 @@
 <div class="login">
 <a href="#" class="auth-link signIn"><i class="fas fa-user-circle"></i>Войти</a>
 </div>
-<div class="login">
-<a href="#" class="auth-link register"><i class="fas fa-shopping-cart"></i>Зарегистрироваться</a>
+<div class="register">
+<a href="#" class="auth-link registerIn"><i class="fas fa-shopping-cart"></i>Зарегистрироваться</a>
 </div>
 </div>
 </div>
@@ -233,12 +233,6 @@ var signBlock = $('.sign-block');
 var signBlock_active = $('.sign-block_active');
 var exit = $('.exit');
 var signInMobile = $('.signInMobile');
- 
-var register = $('.registerIn');
-var registerBlock = $('.register-block');
-var registerBlock_active = $('.register-block_active');
-var exit = $('.exit');
-var registerInMobile = $('.registerInMobile');
 
 var findStore = $('.findStore');
 var mapsBlock = $('.maps-block');
@@ -262,6 +256,42 @@ signBlock.toggleClass('sign-block_active');
 navigation.removeClass('nav-active');
 link.removeClass('burger-link_active');
 });
+
+
+findStore.click(function(){
+mapsBlock.toggleClass('maps-block_active');
+});
+
+exit.click(function(){
+signBlock.removeClass('sign-block_active');
+mapsBlock.removeClass('maps-block_active');
+});
+});
+ $(document).ready(function () {
+var link = $('.burger-link');
+var link_active = $('.burger-link_active');
+var navigation = $('.mobile-nav');
+var nav_active = $('.nav-active');
+ 
+var register = $('.registerIn');
+var registerBlock = $('.register-block');
+var registerBlock_active = $('.register-block_active');
+var exit = $('.exit');
+var registerInMobile = $('.registerInMobile');
+
+var findStore = $('.findStore');
+var mapsBlock = $('.maps-block');
+var mapsBlock_active = $('.maps-block_active');
+
+link.click(function(){
+link.toggleClass('burger-link_active');
+navigation.toggleClass('nav-active');
+});
+
+link_active.click(function(){
+navigation.removeClass('nav-active');
+});
+
   
 register.click(function(){
 registerBlock.toggleClass('register-block_active');
@@ -278,7 +308,6 @@ mapsBlock.toggleClass('maps-block_active');
 });
 
 exit.click(function(){
-signBlock.removeClass('sign-block_active');
 registerBlock.removeClass('register-block_active');
 mapsBlock.removeClass('maps-block_active');
 });
