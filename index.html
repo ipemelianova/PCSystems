@@ -277,8 +277,6 @@
 				signBlock.toggleClass('sign-block_active');
 			});
 			
-			
-
 			signInMobile.click(function(){
 				signBlock.toggleClass('sign-block_active');
 				navigation.removeClass('nav-active');
@@ -299,6 +297,7 @@
 
 			exit.click(function(){
 				signBlock.removeClass('sign-block_active');
+				RegBlock.removeClass('Reg-block_active');
 				mapsBlock.removeClass('maps-block_active');
 			});
 		});
