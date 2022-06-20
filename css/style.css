@@ -309,26 +309,10 @@ body {
 	color: #000000;
 }
 
-.notReg {
-	font-size: 16px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	user-select: none;
-}
-
-.notReg-btn input {
-	background: #fff;
-	color: #808080;
-}
-
-.notReg-btn input:hover {
-	background: #808080;
-	color: #fff;
 }
 /*=====================Style for registration===============*/
 
-.notReg {
+.Reg-block {
 	position: fixed;
 	display: none;
 	justify-content: center;
@@ -340,7 +324,7 @@ body {
 	box-sizing: border-box;
 }
 
-.notReg_active {
+.Reg-block_active {
 	display: flex;
 }
 
@@ -419,7 +403,7 @@ body {
 	color: #000000;
 }
 
-.notReg {
+.Reg-block {
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
@@ -427,12 +411,12 @@ body {
 	user-select: none;
 }
 
-.notReg-btn input {
+.Reg-block-btn input {
 	background: #fff;
 	color: #808080;
 }
 
-.notReg-btn input:hover {
+.Reg-block-btn input:hover {
 	background: #808080;
 	color: #fff;
 }
