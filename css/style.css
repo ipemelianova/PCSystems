@@ -579,7 +579,7 @@ body {
 }
 
 .exitMaps {
-	left: calc(100% - 30px); /*�弍�磶舒�亠仍�仆仂 仗�仂弍亠仍� 仗仂 仂弍亠 ��仂�仂仆� 仂� 仄亳仆��舒!*/
+	left: calc(100% - 30px); 
 	z-index: 250;
 }
 
@@ -715,12 +715,7 @@ body {
 	.burger-link {
 		top: 2%;
 	}
-	.sign {
-		width: 300px;
-	}
-	.register {
-		width: 300px;
-	}
+	
 }
 
 @media screen and (max-height: 650px) {
