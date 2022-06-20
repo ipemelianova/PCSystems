@@ -273,9 +273,19 @@
 			sign.click(function(){
 				signBlock.toggleClass('sign-block_active');
 			});
+			
+			
 
 			signInMobile.click(function(){
 				signBlock.toggleClass('sign-block_active');
+				navigation.removeClass('nav-active');
+				link.removeClass('burger-link_active');
+			});
+			Reg.click(function(){
+				RegBlock.toggleClass('Reg-block_active');
+			});
+			RegInMobile.click(function(){
+				RegBlock.toggleClass('Reg-block_active');
 				navigation.removeClass('nav-active');
 				link.removeClass('burger-link_active');
 			});
