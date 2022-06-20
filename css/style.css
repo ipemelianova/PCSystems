@@ -312,17 +312,7 @@ body {
 
 /*=====================Style for registration===============*/
 
-.register-block {
-	position: fixed;
-	display: none;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	background: rgba(128, 128, 128, .2);
-	z-index: 200;
-	box-sizing: border-box;
-}
+
 
 .register-block_active {
 	display: flex;
@@ -345,6 +335,45 @@ body {
 	user-select: none;
 }
 
+
+.input-data, .input-btn {
+	width: 70%;
+	margin: 25px auto;
+}
+
+.input-data input {
+	width: 100%;
+	border: 2px solid rgba(128, 128, 128, .5);
+	border-radius: 15px;
+	outline: none;
+	font-size: 18px;
+	font-family: 'PT Sans', sans-serif;
+	transition: .3s;
+	height: 25px;
+	text-align: center;
+}
+
+.input-data input:focus {
+	border: 2px solid #000000;
+	color: #808080;
+}
+
+.input-btn input{
+	width: 100%;
+	border: 2px solid #FFFFFF;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 20px;
+	background: #808080;
+	padding: 6px 0;
+	transition: .3s;
+}
+
+.input-btn input:hover {
+	background: #fff;
+	color: #000000;
+}
 
 
 
