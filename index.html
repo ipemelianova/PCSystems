@@ -268,10 +268,6 @@ mapsBlock.removeClass('maps-block_active');
 });
 });
  $(document).ready(function () {
-var link = $('.burger-link');
-var link_active = $('.burger-link_active');
-var navigation = $('.mobile-nav');
-var nav_active = $('.nav-active');
  
 var register = $('.registerIn');
 var registerBlock = $('.register-block');
@@ -279,18 +275,6 @@ var registerBlock_active = $('.register-block_active');
 var exit = $('.exit');
 var registerInMobile = $('.registerInMobile');
 
-var findStore = $('.findStore');
-var mapsBlock = $('.maps-block');
-var mapsBlock_active = $('.maps-block_active');
-
-link.click(function(){
-link.toggleClass('burger-link_active');
-navigation.toggleClass('nav-active');
-});
-
-link_active.click(function(){
-navigation.removeClass('nav-active');
-});
 
   
 register.click(function(){
@@ -303,13 +287,11 @@ navigation.removeClass('nav-active');
 link.removeClass('burger-link_active');
 });
 
-findStore.click(function(){
-mapsBlock.toggleClass('maps-block_active');
-});
+
 
 exit.click(function(){
 registerBlock.removeClass('register-block_active');
-mapsBlock.removeClass('maps-block_active');
+
 });
 });
 </script>
