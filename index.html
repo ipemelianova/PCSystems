@@ -37,7 +37,7 @@
 <div class="login">
 <a href="#" class="auth-link signIn"><i class="fas fa-user-circle"></i>Войти</a>
 </div>
-<div class="registration">
+<div class="login">
 <a href="#" class="auth-link registerIn"><i class="fas fa-shopping-cart"></i>Зарегистрироваться</a>
 </div>
 </div>
@@ -73,8 +73,11 @@
 <div class="input-data">
 <input type="password" placeholder="введите пароль">
 </div>
+ <div class="input-data">
+<input type="password" placeholder="повторите пароль">
+</div>
 <div class="input-btn">
-<input type="submit" value="Войти">
+<input type="submit" value="Зарегистрироваться">
 </div>
 </div>
 </div>
@@ -276,6 +279,7 @@ mapsBlock.toggleClass('maps-block_active');
 
 exit.click(function(){
 signBlock.removeClass('sign-block_active');
+registerBlock.removeClass('register-block_active');
 mapsBlock.removeClass('maps-block_active');
 });
 });
