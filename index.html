@@ -47,8 +47,8 @@
 				<div class="login">
 					<a href="#" class="auth-link signIn"><i class="fas fa-user-circle"></i>Вход</a>
 				</div>
-				<div class="login">
-					<a href="#" class="auth-link RegIn"><i class="fas fa-user-circle"></i>Регистрация</a>
+				<div class="register">
+					<a href="#" class="auth-link registerIn"><i class="fas fa-user-circle"></i>Регистрация</a>
 				</div>
 			</div>
 		</div>
@@ -74,10 +74,10 @@
 		</div>
 	</div>
 	
-	<div class="Reg-block">
-		<div class="Reg">
+	<div class="register-block">
+		<div class="register">
 			<a href="#" class="exit"><i class="fas fa-times"></i></a>
-			<h4 class="Reg-head">Регистрация</h4>
+			<h4 class="register-head">Регистрация</h4>
 
 			<div class="input-data">
 				<input type="text" placeholder="введите имя пользователя">
@@ -86,7 +86,7 @@
 				<input type="password" placeholder="введите пароль">
 			</div>
 			<div class="input-data">
-				<input type="password" placeholder="подтвердите пароль">
+				<input type="password" placeholder="повторите пароль">
 			</div>			
 			<div class="input-btn">
 				<input type="submit" value="Зарегистрироваться">
@@ -100,11 +100,11 @@
 		<a href="#" class="burger-link">
 			<span></span>
 		</a>
-
+        
 		<div class="mobile-nav">
 			<ul class="mobile-menu">
 				<li class="menu-item">
-					<a href="#" class="menu-link RegInMobile">Регистрация</a>
+					<a href="#" class="menu-link registerInMobile">Регистрация</a>
 				</li>
 				<li class="menu-item">
 					<a href="#" class="menu-link signInMobile">Вход</a>
@@ -254,11 +254,11 @@
 			var exit = $('.exit');
 			var signInMobile = $('.signInMobile');
 			
-			var Reg = $('.RegIn');
-			var RegBlock = $('.Reg-block');
-			var RegBlock_active = $('.Reg-block_active');
+			var register = $('.registerIn');
+			var registerBlock = $('.register-block');
+			var registerBlock_active = $('.register-block_active');
 			var exit = $('.exit');
-			var RegInMobile = $('.RegInMobile');
+			var registerInMobile = $('.registerInMobile');
 
 			var findStore = $('.findStore');
 			var mapsBlock = $('.maps-block');
@@ -282,11 +282,11 @@
 				navigation.removeClass('nav-active');
 				link.removeClass('burger-link_active');
 			});
-			Reg.click(function(){
-				RegBlock.toggleClass('Reg-block_active');
+			register.click(function(){
+				registerBlock.toggleClass('register-block_active');
 			});
-			RegInMobile.click(function(){
-				RegBlock.toggleClass('Reg-block_active');
+			registerInMobile.click(function(){
+				regBlock.toggleClass('register-block_active');
 				navigation.removeClass('nav-active');
 				link.removeClass('burger-link_active');
 			});
@@ -297,7 +297,7 @@
 
 			exit.click(function(){
 				signBlock.removeClass('sign-block_active');
-				RegBlock.removeClass('Reg-block_active');
+				registerBlock.removeClass('register-block_active');
 				mapsBlock.removeClass('maps-block_active');
 			});
 		});
