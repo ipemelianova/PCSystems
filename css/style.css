@@ -234,7 +234,7 @@ body {
 	display: flex;
 }
 
-.sign {
+.sign, .register {
 	background: #fff;
 	width: 340px;
 	height: 390px;
