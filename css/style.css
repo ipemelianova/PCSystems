@@ -234,7 +234,7 @@ body {
 	display: flex;
 }
 
-.sign, .register{
+.sign {
 	background: #fff;
 	width: 340px;
 	height: 390px;
@@ -332,7 +332,12 @@ body {
 
 /*=====================Style for registration===============*/
 
-
+.register{
+	background: #000000;
+	width: 340px;
+	height: 390px;
+	border-radius: 20px;
+}
 
 
 
