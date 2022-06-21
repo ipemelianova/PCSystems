@@ -218,7 +218,7 @@ body {
 
 
 /*=====================Style for sign-block=====================*/
-.sign-block {
+.sign-block, .register-block {
 	position: fixed;
 	display: none;
 	justify-content: center;
@@ -230,7 +230,7 @@ body {
 	box-sizing: border-box;
 }
 
-.sign-block_active {
+.sign-block_active, .register-block_active {
 	display: flex;
 }
 
@@ -262,7 +262,7 @@ body {
 	color: #fff;
 }
 
-.sign-head {
+.sign-head, .register-head {
 	font-size: 35px;
 	margin: 10px 0;
 	padding: 0;
@@ -332,88 +332,6 @@ body {
 
 /*=====================Style for registration===============*/
 
-
-.register-block {
-	position: fixed;
-	display: none;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	background: rgba(128, 128, 128, .2);
-	z-index: 200;
-	box-sizing: border-box;
-}
-
-.register-block_active {
-	display: flex;
-}
-
-.register {
-	background: #fff;
-	width: 340px;
-	height: 390px;
-	border-radius: 20px;
-}
-
-.exit {
-	display: ;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	color: #000000;
-	font-size: 20px;
-	width: 30px;
-	height: 30px;
-	border-radius: 0 20px 0 20px;
-	position: relative;
-	left: calc(100% - 30px);
-	background: rgba(128, 128, 128, .15);
-	transition: .3s;
-}
-
-.exit:hover {
-	background: #FF0000;
-	color: #fff;
-}
-
-.register-head {
-	font-size: 35px;
-	margin: 10px 0;
-	padding: 0;
-	text-align: center;
-	user-select: none;
-}
-
-.input-data, .input-btn {
-	width: 70%;
-	margin: 25px auto;
-}
-
-
-
-
-.input-data input:focus {
-	border: 2px solid #000000;
-	color: #808080;
-}
-
-.input-btn input{
-	width: 100%;
-	border: 2px solid #FFFFFF;
-	font-size: 16px;
-	color: #fff;
-	font-weight: bold;
-	border-radius: 20px;
-	background: #808080;
-	padding: 6px 0;
-	transition: .3s;
-}
-
-.input-btn input:hover {
-	background: #fff;
-	color: #000000;
-}
 
 
 
