@@ -311,25 +311,6 @@ body {
 
 
 
-.Register {
-	font-size: 16px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	user-select: none;
-}
-
-.register-btn input {
-	background: #fff;
-	color: #e01533;
-}
-
-.register-btn input:hover {
-	background: #e01533;
-	color: #fff;
-}
-
-
 /*=====================Style for registration===============*/
 
 .register{
