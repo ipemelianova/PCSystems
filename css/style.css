@@ -234,7 +234,7 @@ body {
 	display: flex;
 }
 
-.sign {
+.sign, .register{
 	background: #fff;
 	width: 340px;
 	height: 390px;
@@ -311,7 +311,7 @@ body {
 
 
 
-.notReg {
+.Register {
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
@@ -319,12 +319,12 @@ body {
 	user-select: none;
 }
 
-.notReg-btn input {
+.register-btn input {
 	background: #fff;
 	color: #e01533;
 }
 
-.notReg-btn input:hover {
+.register-btn input:hover {
 	background: #e01533;
 	color: #fff;
 }
