@@ -248,7 +248,7 @@ body {
 	border-radius: 0 20px 0 20px;
 	position: relative;
 	left: calc(100% - 30px);
-	background: rgba(128, 128, 128, .15);
+	background: rgba(0, 0, 0, .15);
 	transition: .3s;
 }
 
