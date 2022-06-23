@@ -127,6 +127,61 @@ body {
 	color: #808080;
 }
 
+
+
+element.style {
+}
+@media (min-width: 992px)
+.kCmrbf {
+    -webkit-flex-basis: 0;
+    flex-basis: 0;
+}
+.kCmrbf {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-basis: auto;
+    flex-basis: auto;
+    margin: 0 18px 42px;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.jY7uzd {
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    line-height: 1.5em;
+    min-height: 100%;
+    padding: 0 0 56px;
+    position: relative;
+}
+.huyAzc {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+}
+body {
+    height: 100%;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    color: #202124;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
 /*===========Style for mobile menu==============*/
 .burger-link {
 	display: none;
