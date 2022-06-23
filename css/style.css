@@ -218,7 +218,7 @@ body {
 
 
 /*=====================Style for sign-block=====================*/
-.sign-block, .register-block {
+.sign-block {
 	position: fixed;
 	display: none;
 	justify-content: center;
@@ -230,7 +230,7 @@ body {
 	box-sizing: border-box;
 }
 
-.sign-block_active, .register-block_active {
+.sign-block_active{
 	display: flex;
 }
 .sign {
@@ -262,7 +262,7 @@ body {
 	color: #fff;
 }
 
-.sign-head, .register-head {
+.sign-head {
 	font-size: 35px;
 	margin: 10px 0;
 	padding: 0;
@@ -341,8 +341,28 @@ color: #454547
 text-decoration: none;
 text-transform: uppercase;
 }
-
-
+.dws-menu > ul li{
+position: relative;
+border-right: 1px solid #c7c8ca
+}
+.dws-menu > ul li > a i.fa{
+position: absolute;
+top: 15px;
+left: 12px;
+font-size: 18px;
+}
+.dws-menu > ul li: first-child{
+border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+border-right: 1px solid #babbbb;
+}
+.dws-menu li a:hover{
+background: #454547;
+color: #fff;
+box-shadow: 1px 5px 10px -5px black;
+transition: all 0.3s ease;
+}
 
 
 
