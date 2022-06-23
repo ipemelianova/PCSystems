@@ -234,11 +234,11 @@ body {
 	display: flex;
 }
 
-.sign, .register {
-	background: #fff;
+.sign {
+	background: #000;
 	width: 340px;
 	height: 390px;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 .exit {
@@ -305,8 +305,8 @@ body {
 }
 
 .input-btn input:hover {
-	background: #fff;
-	color: #000000;
+	background: #000;
+	color: #fff;
 }
 
 
