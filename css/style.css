@@ -234,11 +234,11 @@ body {
 	display: flex;
 }
 
-.sign {
+.sign, .register {
 	background: #fff;
 	width: 340px;
 	height: 390px;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 .exit {
