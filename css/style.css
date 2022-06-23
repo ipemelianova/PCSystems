@@ -310,7 +310,32 @@ body {
 
 
 
-
+}
+header{
+	margin-top: 200px;
+	font-family: Cuprum, Arial, Helvetical, sans-serif;
+}
+.dws-menu *{
+	margin: 0;
+	padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+}
+.dws-menu > ul{
+display: flex;
+justify-content: center;
+}
+.dws-menu > ul li a{
+display: block;
+background: #ececed;
+padding: 15px 30px 15px 40px;
+font-size: 14px;
+color: #454547
+text-decoration: none;
+text-transform: uppercase;
+}
 
 
 
