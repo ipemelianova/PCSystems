@@ -14,33 +14,14 @@
 </ul>
 </div>
 
-	<form action="url" class="formFaq">
-		<div class="faq">
-			<span>F</span>
-			<span>A</span>
-			<span>Q</span>
-		</div>
-
-		<div class="inputBlock">
-			<i class="far fa-user"></i>
-			<input type="text" class="name" placeholder="Имя">
-		</div>
-		<div class="inputBlock">
-			<i class="far fa-envelope"></i>
-			<input type="text" class="email" placeholder="E-mail">
-		</div>
-		<div class="commentBlock">
-			<i class="far fa-comment-dots"></i>
-			<textarea name="comment" id="comment" class="inputText" autocomplete="off" placeholder="Текст вашего обращения" oninput="getCount()"></textarea>
-		</div>
-
-		<div class="under">
-			<p class="counter"><span id="count"></span>/500 знаков</p>
-			<div class="sendBlock">
-				<input type="submit" id="submitBtn" value="отправить">
-			</div>
-		</div>
-	</form>
+	<form name = "MyForm" id = "callbacks" action = "" method = "post">
+        <input name = "name" type = "text" placeholder = "Ваше имя" /><br/><br/>
+        <input name = "phone" type = "tel" placeholder = "Ваш телефон" /><br/><br/>
+        <textarea name = "body" placeholder = "Ваше сообщение"></textarea><br/><br/>
+        <input id = "submit" type = "submit" name = "done"/>
+</form>
+<div id = "erconts" style = "display: none">
+</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script>
